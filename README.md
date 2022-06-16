@@ -1,14 +1,18 @@
 # Roam Research Extension Template
     
-Hey! Welcome to the wonderful world of Roam. I'm glad that you've decided to build extensions for it :)
+Hey! Welcome to the wonderful world of Roam. I'm glad that you've decided to build extensions for it :) 
 
-Here's a little but of information that you should find helpful:
+If you are seeing this on Github, get the most out of the template on Replit here: https://replit.com/@KrishAtReplit/Roam-Research-Extension-Template#README.md
+
+This template is meant to be used on [Replit](https://replit.com), however it should port over to any other configuration pretty easily. Here's a little but of information that you should find helpful:
 
 ## File Structure
 All Roam Extension code is located in `roam-extension/src`. This code is built into the `roam-extension/build` folder, and hosted statically through an ExpressJS application in `index.js`
 
 ## Usage
-After you change your code, all you have to do his click "Run" at the top! You can check out the `run` property in the `.replit` file for insight into exactly [what is being done](https://docs.replit.com/programming-ide/configuring-repl). Hot refresh is not yet supported, and it may take some time for the server to start up each time. 
+After you change your code, all you have to do his click "Run" at the top! You can check out the `run` property in the `.replit` file for insight into exactly [what is being done](https://docs.replit.com/programming-ide/configuring-repl). Hot refresh is not yet supported, and it may take some time for the server to start up each time.
+
+If you plan on using this bot continuously over a long period of time, use the Always On feature that Replit provides.
 
 ### Once the server is started:
 First create a block with the text `{{[[roam/js]]}}` on any page in your Roam DB. Then, create a single child of this block and type three backticks. A code block should appear. Copy this code and paste it into the child code block in your graph:
