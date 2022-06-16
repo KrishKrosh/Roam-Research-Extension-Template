@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "roamjs-scripts": "^0.17.1"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "roamjs-components": "^0.59.0"
+  }
+}
